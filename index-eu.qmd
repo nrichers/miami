@@ -1,0 +1,532 @@
+---
+title: Unlock the EU AI Act<hr>
+subtitle: In 6 Requirements
+favicon: ../../assets/validmind.png
+format:
+  revealjs:
+    center: true
+    autoSlide: 10000
+    autoSlideStoppable: true
+    controlsLayout: bottom-right
+    transition: zoom
+    transitionSpeed: slow
+    theme: [../../assets/slides.scss]
+    loop: true
+    help: true
+    controls: true
+    controls-tutorial: true
+    controls-back-arrows: visible
+    lightbox: true
+    code-line-numbers: false
+    link-external-newwindow: true
+    slide-number: true
+    chalkboard: false
+    preview-links: auto
+    view-distance: 2
+    logo: ../../assets/validmind-slides-logo.png
+    footer: "ValidMind | [{{< fa person-walking-dashed-line-arrow-right >}}](https://validmind.com/)"
+title-slide-attributes:
+  data-autoslide: 5000
+  data-background-color: "#151515"
+  data-background-image: "../../assets/hero-theme-builder.png"
+  # data-background-image: "../../assets/Flag_of_Europe_waving.svg"
+  data-background-opacity: "0.8"
+  # data-background-size: 4200px
+  # data-background-position: 47% 54%
+filters:
+  - tachyons
+---
+
+##
+<!-- Leave this as an H2 heading for keyboard navigation -->
+
+:::: {.columns}
+
+::: {.column width="70%" .f2 .pr4}
+[Many AI systems — including **credit scoring**, **loan approvals**, and **fraud detection** — are classified as [high risk]{.b .highlight} under the EU AI Act.]{.spaced}
+
+::: {.tc .f5 .mt4 .muted}
+Source: [The EU Artificial Intelligence Act](https://artificialintelligenceact.eu/)
+:::
+
+:::
+
+::: {.column width="30%" .bl .pl4 .pv4}
+[High risk]{.b .f1 .smallcaps .highlight}
+
+::: {.f3}
+Strict requirements for systems impacting health, safety, or rights
+:::
+
+:::
+
+::::
+
+# [You must meet requirements for [transparency]{.b .highlight}, [risk management]{.b .highlight}, [bias mitigation]{.b .highlight}, and [human oversight]{.b .highlight} to ensure fair and reliable outcomes.]{.f1}{data-autoslide="7000"}
+
+# [How can [ValidMind]{.highlight} help?]{.f-headline}{ data-autoslide="5000"}
+
+#  {data-autoslide="2000"}
+
+:::: {.columns}
+
+::: {.column width="40%" .tl .pl3 .pr5 .pv4 .f2 .b .mt4}
+
+::: {.f2}
+The EU AI Act
+:::
+
+::: {.f2 .ph3 .br2 .dib .white .bg-dark-pink}
+[In 6 Requirements]{.smallcaps}
+:::
+
+::: {.f5 .muted}
+([Source](https://artificialintelligenceact.eu/chapter/3))
+:::
+
+:::
+
+::: {.column width="60%" .f5 .pl5 .nt4}
+
+::: {.fragment .custom .blur}
+[Risk management system]{.f2 .smallcaps .b .highlight} [| Article 9]{.f4 .smallcaps .b}
+
+::: {.nt3 .pb1}
+Implement a system to identify, evaluate, and mitigate risks at all stages of the AI system's lifecycle.
+:::
+:::
+
+::: {.fragment .custom .blur}
+[Data governance]{.f2 .smallcaps .b .highlight} [| Article 10]{.f4 .smallcaps .b}
+
+::: {.nt3 .pb1}
+Use high-quality, representative, and unbiased data.  
+:::
+:::
+
+::: {.fragment .custom .blur}
+[Technical documentation]{.f2 .smallcaps .b .highlight} [| Article 11]{.f4 .smallcaps .b}
+
+::: {.nt3 .pb1}
+Keep detailed records of your system’s design, purpose, and compliance.  
+:::
+:::
+
+::: {.fragment .custom .blur}
+[Accuracy and robustness]{.f2 .smallcaps .b .highlight} [| Article 15]{.f4 .smallcaps .b}
+
+::: {.nt3 .pb1}
+Prove your systems are reliable, consistent, and handle edge cases.  
+:::
+:::
+
+::: {.fragment .custom .blur}
+[Transparency]{.f2 .smallcaps .b .highlight} [| Article 13]{.f4 .smallcaps .b}
+
+::: {.nt3 .pb1}
+Share clear information about decisions and enable human review when needed.  
+:::
+:::
+
+::: {.fragment .custom .blur}
+[Human oversight]{.f2 .smallcaps .b .highlight} [| Article 14]{.f4 .smallcaps .b}
+
+::: {.nt3}
+Allow human experts to oversee outputs, especially for significant decisions.
+:::
+:::
+
+:::
+
+::::
+
+# [Risk management system]{.f1 .smallcaps .b .highlight} [| Article 9]{.f2 .smallcaps .b}  
+
+::: {.f4 .nt4 .mb4}
+Implement a system to identify, evaluate, and mitigate risks at all stages of the AI system's lifecycle.
+
+::: {.pb3}
+
+---
+
+:::
+
+:::
+
+[ValidMind offers **a platform** to implement risk management workflows **for the lifecycle of your models**, ensuring end-to-end compliance with regulatory requirements.]{.spaced}
+
+# {data-autoslide="95000"}
+
+:::: {.columns}
+
+::: {.column width="70%" .nt4}
+![](/assets/vm-model-registration.gif){width="80%" fig-alt="An animation of the model registration process as you step through a series of classification drop-down menus that enable you to assign a risk classification" .screenshot}
+:::
+
+::: {.column width="30%" .f3 .pl4 .bl .mt5 .pv4}
+**Model registration** aligns with the EU AI Act.
+
+**Risk classification** guides the model workflow by capturing: 
+
+- Purpose  
+- Industry  
+- Sensitive data use  
+- Human oversight  
+:::
+
+::::
+
+# {data-autoslide="7000"}
+
+::: {.hidden}
+Customizable workflows
+:::
+
+::: {.nt5 .bb .tc .mb4}
+![](/assets/vm-workflows.png){fig-alt="A screenshot of workflow detail showing how model registration includes a risk classification step" .screenshot}
+:::
+
+::: {.f3 .mt4 .pl4}
+[Customize **model registration** and **lifecycle workflow** to meet any privacy, legal, or regulatory need.]{.spaced-copy}
+:::
+
+# [Data governance]{.f1 .smallcaps .b .highlight} [| Article 10]{.f2 .smallcaps .b}  
+
+::: {.f4 .nt4 .mb4}
+Use high-quality, representative, and unbiased data.
+
+::: {.pb3}
+
+---
+
+:::
+
+:::
+
+[ValidMind's **library** for developers helps you **identify** and **mitigate data biases** with data quality tests. Our **platform** then centralizes governance and oversight for all users.]{.spaced}
+
+#  {data-autoslide="14000"}
+
+:::: {.columns}
+
+::: {.column width="70%" .nl3}
+![](/assets/vm-test-sandbox.gif){fig-alt="An animation of the model registration process as you step through a series of classification drop-down menus that enable you to assign a risk classification" .screenshot}
+:::
+
+::: {.column width="30%" .f3 .pl4 .bl .pb4 .mt2 .pt2 .nt2}
+
+Get started quickly with our developer docs.
+
+Our library provides **250+ out-of-the-box tests**, organized into test suites. 
+
+Easily add **custom tests**.
+
+::: {.pt2 .pr4}
+```python
+pip install validmind
+import validmind as vm
+
+vm.init(
+ api_host="...",
+    api_key="...",
+    api_secret="...",
+    model="...",
+)
+
+results = 
+vm.run_documentation_tests()
+```
+:::
+
+:::
+
+::::
+
+# [Technical documentation]{.f1 .smallcaps .b .highlight} [| Article 11]{.f2 .smallcaps .b}  
+
+::: {.f4 .nt4 .mb4}
+Keep detailed records of your system’s design, purpose, and compliance.
+
+::: {.pb3}
+
+---
+
+:::
+
+:::
+
+[ValidMind **automates documentation** and **testing** to demonstrate compliance and system design.]{.spaced}
+
+#  {data-autoslide="32000"}
+
+:::: {.columns}
+
+::: {.column width="70%" .nl3}
+![](/assets/vm-model-documentation.gif){fig-alt="An animation of model documentation being scrolled through on the ValidMind platform. The scrolling starts at the documentation overview and then expands the 3.5 Model Bias & Fairness section which is also scrolled through" .screenshot}
+
+:::
+
+::: {.column width="30%" .bl .pt4 .pl4 .pb3 .f3}
+**Technical documentation** is structured with templates that include:
+
+- Sections
+- Guidelines
+- Preconfigured tests
+
+Customize any template by adding tests, new sections, and more.
+:::
+
+:::: 
+
+#  {data-autoslide="21000"}
+
+:::: {.columns}
+
+::: {.column width="70%" .nl3}
+
+![](/assets/llm-feature-model-documentation.gif){fig-alt="An animation of model documentation being generated on the ValidMind platform" .screenshot}
+
+:::
+
+::: {.column width="30%" .bl .pt3 .pl4 .pb3 .f3}
+
+Documentation is generated with **safe AI features** during model development.  
+
+When ready, get your model — and its technical documentation — **validated by a human**. 
+
+The same safe features are available to [**model validators**](/assets/llm-feature-validation-report.gif){target="blank" .lightbox}.
+:::
+
+::::
+
+# [Accuracy and robustness]{.f1 .smallcaps .b .highlight} [| Article 15]{.f2 .smallcaps .b}  
+
+::: {.f4 .nt4 .mb4}
+Prove your systems are reliable, consistent, and handle edge cases.
+
+::: {.pb3}
+
+---
+
+:::
+
+:::
+
+[ValidMind enables you to **validate AI models** to ensure accuracy, robustness, reliable performance, and adherence to internal or regulatory standards.]{.spaced}
+
+#  {data-autoslide="24000"}
+
+:::: {.columns}
+
+::: {.column width="70%" .nl3}
+![](/assets/vm-assess-compliance.gif){fig-alt="An animation of a validation report being scrolled through on the ValidMind platform to assess compliance. The reviewer then changes the assessment from No Adherence to Some Adherencein the dropdown menu" .screenshot}
+:::
+
+::: {.column width="30%" .bl .pt3 .pl4 .pb3 .f3}
+**Assess compliance** by linking evidence from model developers in your report.  
+
+**Tailor validation** to any regulatory or internal standard, and let ValidMind generate recommendations.  
+
+Validators can even **create challenger models** as evidence for you.
+:::
+
+:::: 
+
+#  {data-autoslide="12000"}
+
+:::: {.columns}
+
+::: {.column width="70%" .nl3}
+![](/assets/vm-finding.png){fig-alt="An animation of a validation being scrolled through on the ValidMind platform to assess compliance. The reviewer then changes the assessment from No Adherence to Some Adherencein the dropdown menu" .screenshot}
+:::
+
+::: {.column width="30%" .bl .mt4 .pv2 .pl4 .f3} 
+
+**Findings indicate deficiencies**, along with severity, risk area, and documentation reference.
+
+The process ensures thorough checks — and close collaboration between developers and validators — **even for thousands of models**.  
+:::
+
+::::
+
+#  {data-autoslide="30000"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.nt4 .tc}
+![](/assets/overview-llm-features-check-document-in-progress.gif){width="70%" .lightbox .screenshot}
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.bl .pt4 .pl4 .pr4 .pb4}
+**Checks for AI features**
+
+::: {.f3}
+At ValidMind, we embrace _drinking our own champagne_ — using the same AI testing and risk management tools we build for our users.  
+
+We rigorously apply these tools in our own product development. 
+
+**Our testing methodologies and philosophy around testing are readily available.**
+:::
+
+::: {.tc}
+[[Our LLM features](https://docs.validmind.ai/about/overview-llm-features.html){.button .shadow-5-ns .mt4}]{.smallcaps}
+:::
+
+:::
+
+:::
+
+::::
+
+# [Transparency]{.f1 .smallcaps .b .highlight} [| Article 13]{.f2 .smallcaps .b}  
+
+::: {.f4 .nt4 .mb4}
+Share clear information about decisions and enable human review when needed.
+
+::: {.pb3}
+
+---
+
+:::
+
+:::
+
+[ValidMind automatically **generates analytics** for AI risk exposure — promoting transparency for non-technical audiences.]{.spaced}
+
+# {data-autoslide="19000"}
+:::: {.columns}
+
+::: {.column width="70%" .nl3}
+![](/assets/vm-analytics.gif){fig-alt="An animation of analytics being scrolled through on the ValidMind platform. The scrolling starts on the Models tab and then switches to the Findings tab, followed by a look at a sample finding before returning to the original tab" .screenshot}
+:::
+
+::: {.column width="30%" .pv4 .bl .pl4 .f3 .mt1}
+ValidMind delivers powerful analytics that **empower cross-functional teams** to make informed, impactful decisions.
+
+**Actionable reports** display figures, charts, and data tailored to _a non-technical audience_, offering quick insights into model performance.
+:::
+
+:::: 
+
+# [Human oversight]{.f1 .smallcaps .b .highlight} [| Article 14]{.f2 .smallcaps .b}  
+
+::: {.f4 .nt4 .mb4}
+Allow human experts to oversee outputs, especially for significant decisions.
+
+::: {.pb3}
+
+---
+
+:::
+
+:::
+
+[ValidMind enables human oversight with **ongoing monitoring** of deployed models to detect potential issues.]{.spaced}
+
+
+# {data-autoslide="28500"}
+
+:::: {.columns}
+
+::: {.column width="70%" .nl3}
+![](/assets/vm-ongoing-monitoring.gif){fig-alt="An animation of model documentation being scrolled through on the ValidMind platform. The scrolling starts at the documentation overview and then expands the 3.5 Model Bias & Fairness section which is also scrolled through" .screenshot}
+:::
+
+::: {.column width="30%" .bl .pt2 .pl4 .f3}
+
+[**Ongoing monitoring** allows your models to be tracked in production with regular reporting.]{.spaced-copy}
+
+[Proactively identify and address potential issues **before** they affect outcomes.]{.spaced-copy}
+
+![Identify potential data drift](/assets/target-prediction-distribution-plot-zoomed.png){fig-alt="A screenshot of a graph that shows potential data drift over time" .screenshot}
+:::
+
+:::: 
+
+# Want to know more? {data-autoslide="15000"}
+
+:::: {.columns}
+
+::: {.column width="70%" .pr4 .f3}
+
+[**Request your demo** today to learn how you can elevate your model risk management with ValidMind.]{.spaced}
+
+::: {.tc .pt2}
+[[Request a demo](https://validmind.com/request-demo/){.button .shadow-5-ns .fs-normal .f4 target="_blank"}]{.smallcaps}
+:::
+
+::: {.pv2}
+---
+:::
+
+[The experts at ValidMind have created a free brief with **actionable strategies** to help you navigate the complexities of the EU AI Act.]{.spaced}
+
+::: {.tc .pt2}
+[[Read our brief](https://validmind.com/download-whitepaper-the-eu-ai-act/){.button .shadow-5-ns .fs-normal .f4 target="_blank"}]{.smallcaps}
+:::
+
+:::
+
+::: {.column width="30%" .tr .pl4 .pt3}
+![](/assets/VM-EU-AI-Act-Regulation-Brief-pdf.jpg){.screenshot}
+:::
+
+::::
+
+<!-- Risk classification slide -->
+<!-- ## _"What is the potential impact?"_ {data-autoslide="15000"}
+
+::: {.hidden}
+Risk classification
+:::
+
+:::: {.columns}
+
+::: {.column width="50%" .br .pv4 .pr3}
+[Unacceptable risk]{.b .f1 .smallcaps .highlight}
+
+::: {.f5 .nt3}
+Prohibited AI systems that threaten safety or rights
+:::
+:::
+
+::: {.column width="50%" .pv4 .pl5}
+[High risk]{.b .f1 .smallcaps .highlight}
+
+::: {.f5 .nt3}
+Strict requirements for AI systems impacting health, safety, or rights
+:::
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="50%" .br .bt .pv4 .ph3}
+[Limited risk]{.b .f1 .smallcaps .highlight}
+
+::: {.f5 .nt3}
+Transparency obligations, such as informing users about AI systems
+:::
+:::
+
+::: {.column width="50%" .bt .pv4 .pl5}
+[Minimal risk]{.b .f1 .smallcaps .highlight}
+
+::: {.f5 .nt3}
+No requirements — low-risk AI systems
+:::
+:::
+
+::::
+
+
+::: {.tc .f5 .mt4 .muted}
+Source: [The EU Artificial Intelligence Act](https://artificialintelligenceact.eu/)
+::: -->
