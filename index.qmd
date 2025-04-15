@@ -53,7 +53,7 @@ filters:
 ## Better storytelling ...
 
 ::: {.footer}
-["Stuff you should do."]{.silver}
+["What you should do."]{.silver}
 :::
 
 ::: {.mt4}
@@ -63,7 +63,7 @@ filters:
 ## Docs site 2.0 ...
 
 ::: {.footer}
-["Stuff you should know."]{.silver}
+["What you should know."]{.silver}
 :::
 
 - Design — [Figma home page & design system {{< fa external-link >}}](https://www.figma.com/design/dTiSXaSJfjm4EuUwNGszK6/Doc-Site-2025?node-id=0-1&m=dev)
@@ -79,7 +79,7 @@ filters:
 ## Rebooting our community ...
 
 ::: {.footer}
-["Stuff we should talk about."]{.silver}
+["What we should talk about."]{.silver}
 :::
 
 - What do we support {{< fa arrows-left-right >}} What is the value add?
