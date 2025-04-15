@@ -1,142 +1,199 @@
 ---
-title: "Two years in ..."
+title: "Miami&ensp;Offsite"
+# subtitle: "Docs, Training, and Community"
 search: false
 format:
   revealjs:
-    controls: false
-    progress: false
+    # revealjs-plugins: 
+    #   - slideover
+    center: true
+    controlsLayout: bottom-right
+    transition: zoom
+    transitionSpeed: slow
+    theme: [slides.scss]
+    loop: true
+    help: true
+    controls: true
     controls-tutorial: true
     controls-back-arrows: visible
-    transition: slide
-    theme: [default, custom.scss]
-    slide-number: false
+    lightbox: true
+    code-line-numbers: false
+    link-external-newwindow: true
+    slide-number: true
     chalkboard: false
     preview-links: auto
     view-distance: 2
     logo: ../assets/validmind-slides-logo.png
     footer: ""
 title-slide-attributes:
-  data-background-color: "#083E44"
-  data-background-image: "vm-windows-xs.png"
+  data-background-color: "#041E22"
+  data-background-image: "vm-miami.png"
+filters:
+  - tachyons
 ---
 
-
-# Think back to February 2022 ...
-
-- We had nothing. 
-
-<!-- Annual review prep — treat it like a job interview 
-- Prepare updated CV with highlights
-- Include links to best work samples
-    - Docs site revamp
-    - API reference 
-    - Chatbot MVP
-    - Product demos
-    - Team building and community processes
-- Areas for improvement:
-    - Community is half-starved for lack of resources
-    - Taking the lead on OSS
-- If no director title:
-    - If mentoring or working towards is mentioned
-        - Makes sense for established corporations
-        - People join startups to further their careers (nobody has time to run a mentoring program)
-        - I perform at the same level as a Spencer or a Roof
-    - Else be silent
-- Create a GitHub page you could show w/ work samples
- -->
-
-# Think back to the summer of 2023 in Vancouver ...
-
-- Our first users!
-- Competitive evaluation
-- Our own community & open-source
-
-## Our own community
-
-::: {.f2}
-- **Enables you to use ValidMind** — for customer onboarding, feature adoption, product-led growth
-- **Enables you to do MRM or AI risk better** — for newcomers to the industry, for leaders in model risk governance
-:::
+## Today
 
 <hr>
 
-::: {.f2}
-**Enables us to scale** — 'know-how in a box'
+:::: {.columns}
 
-   - Bottom-up adoption of ValidMind — support self-service & trials
-   - Open source software (OSS) dissemination
+::: {.column width="33%" .f2}
+[[Looking forward](#looking-forward)]{.subtitle}
 :::
 
-<!-- - Avoid content siloes -->
+::: {.column width="33%" .f2}
+[[Looking back](#looking-back)]{.subtitle}
+:::
 
-# Community next steps
+::::
 
-- [Training program proposal](#training-program-proposal)
-- [Priorities](#priorities) 
-- [FINOS](#finos)
-- [Docs vision update](#docs-vision-update)
+# Looking forward {.tc}
 
-# Training program proposal
+## Better storytelling ...
 
-- <https://github.com/validmind/training-stockholm-2024>
+::: {.footer}
+["Stuff you should do."]{.silver}
+:::
 
-# Priorities
+::: {.mt4}
+`needs-docs`&emsp;{{< fa arrow-right >}}&emsp;[Storytelling scoping {{< fa external-link >}}](https://www.notion.so/validmind/Storytelling-scoping-1d019127eb1280fbb756e4b30b678b5d)
+:::
 
-**TL;DR:** What Jonas and Mehdi said.
+## Docs site 2.0 ...
 
-::: {.f3}
-(Practically, this means stepping up content creation — docs, training, demos, samples. If we're not creating these now, we will. To accelerate, we need to build out the team.)
+::: {.footer}
+["Stuff you should know."]{.silver}
+:::
 
-<!-- **Self-service, enablement** -->
+- Design — [Figma home page & design system {{< fa external-link >}}](https://www.figma.com/design/dTiSXaSJfjm4EuUwNGszK6/Doc-Site-2025?node-id=0-1&m=dev)
 
-<!-- - Onboarding, training content ready to consume
-- Tech feature content ready to consume
-- Migration to ValidMind case studies to support GTM -->
+::: {.f3 .ml4 .nt3}
+- Content architecture — [Content architecture for docs site {{< fa external-link >}}](https://miro.com/app/board/uXjVL41IHl4=/)
+- Mockup —[[DEMO] New site mockup #638 {{< fa external-link >}}](https://github.com/validmind/documentation/pull/638)
+:::
+
+- Infra — [Docs Site 2.0 {{< fa external-link >}}](https://miro.com/app/board/uXjVLtXxA1Y=/)
+- 4th portal — [Installation {{< fa external-link >}}](https://docs.validmind.ai/installation/readme.html)
+
+## Rebooting our community ...
+
+::: {.footer}
+["Stuff we should talk about."]{.silver}
+:::
+
+- What do we support {{< fa arrows-left-right >}} What is the value add?
+- Community-branded content
+
+::: {.f3 .ml4 .nt3}
+- Open-source — `notebooks/code_sharing`&emsp;{{< fa arrow-right >}}&emsp;`notebooks/community`
+- Community notebooks — beta features, tests
+- Workshops, online seminars
+:::
+
+- Zendesk "community site": — what, who, when?&ensp;[[Gather {{< fa external-link >}}]{.f3}](https://validmindhelp.zendesk.com/hc/en-us/community/topics)
+
+# Looking back  {.tc}
+
+## February 2023 {.center}
+
+<hr>
+
+We had ... nothing. 
+
+::: {.f5}
+
+[Nik joined February 2023]{.subtitle}
 
 :::
 
-# Year THREE 
+## Summer 2023 — Vancouver {.center}
 
-## What? 
+<hr>
 
-::: {.f3}
-> FINOS (Fintech Open Source Foundation) is a nonprofit organization sponsored by the Linux Foundation that promotes open innovation in the financial services sector. It provides a collaborative platform where financial institutions, technology firms, and individual contributors can work together to develop open-source software, standards, and best practices. The aim is to drive efficiency, innovation, and interoperability within the industry. FINOS also supports various projects and working groups that address specific challenges and opportunities in financial technology.
+- Docs vision
+- Initial docs site & some infra
+- Competitive evaluations for docs & community
+- Community & open-source plans
+- Initial blog
+- Our first users
+
+## Summer of 2024 — Stockholm {.center}
+
+<hr>
+
+- Annual themes for training, docs, and community
+- Training program proposal, interactive course MVP
+- Much more content!
+- Working on resolving tech debt
+- Docs infra with PR previews, staging, and prod deployment
+
+[Beck joined March 2024]{.subtitle}
+
+## Spring 2025 {.center}
+
+<hr>
+
+:::: {.columns}
+
+::: {.column .f3}
+- Annual themes&emsp;{{< fa arrow-right >}}&emsp;[roadmap epics](https://app.shortcut.com/validmind/epics?cf_workflow=500004900&ct_workflow=all&query=c-r&team_scope_id=v2%3At%3A63911b4a-707d-4009-907f-dd9b189c56ba%3A646532ca-ab10-4e88-92ff-31011186ef8a&vc_group_by=week)
+- Tech debt resolved unless&nbsp; `docs-blocked`
+- ValidMind style guide
+- Many more content improvements
+- Well-documented community processes
+- CSM integration:
+  - Playbooks for training, deployment
+  - Support enablement
+
 :::
 
-::: {.f2}
-Membership organizations sponsor developers to engage in open source. It's a viable path to get our open-source developer tools in front of the largest open-source developer audience in fintech.
+::: {.column .f3}
+- Docs site is evolving into ~~three~~ four portals:
 
-<!-- (start small, then expand to use more) -->
+::: {.ml4 .pl2 .f4 .nt3 .nb2}
+[[User guides](https://docs.validmind.com/guide/guides.html)]{.button-small} [[Developer portal](https://docs.validmind.ai/developer/validmind-library.html)]{.button-small}<br>[[Training](https://docs.validmind.ai/training)]{.button-small} [[Installation](https://docs.validmind.ai/installation/readme.html)]{.button-small}
 
-**Two opportunities to engage, one paid, one free.**
 :::
 
-## Paid: AI Readiness Initiative
+- Docs site 2.0 redesign underway:
 
-::: {.f2}
-> Our goal is to mutually develop a **governance framework** that manages the on-boarding, development of, and running AI-based solutions within financial services organisations - allowing us all to unlock the potential of this disruptive technology in a safe, trustworthy and compliant way.
+  - New home page 
+  - New design system
+  - Clear user journeys for ALL roles
+- Docs backend and chatbot MVP
 
-Member only, 20-30 banks — price tag: USD 20K for Silver FINOS memberhip + USD 5k for Linux Foundation membership
-
-<https://github.com/finos/ai-readiness>
 :::
 
-## Free: LLM Exploration Project
+::::
 
-::: {.f2}
-> Reference Architectures: find ... use cases and build demo applications stitching together existing open source solutions
+## Areas for improvement&ensp;{{< fa chart-line >}}
 
-> **“Model Creation & Evaluation Engine**" ... Evaluating the Open Source Climate Data Commons (contributed by RedHat) ... for developing a public/private data store ... Building on the work done by the AI4Finance team (FinGPT, FinBen paper on financial benchmarks) ... **for developing a suite of benchmarking tools**.
+:::: {.columns}
 
-<https://www.finos.org/blog/finos-llm-exploration-use-case-identification>
+::: {.column width="33%" .f4 .pr2}
+[Process]{.smallcaps .f2}
+
+- **'Done' is not done**<br>[We lack cohesive storytelling for:<br>Docs · training · blog · webinars · support enablement]{.f5}
+- **New tech debt**<br>[100% a systemic process gap — we often race ahead to ship code, leaving docs behind]{.f5}
+- **October '24 proposal**<br>[Beck — Split the process:<br>- Storytelling plans — PM, Writers<br>- Content authoring — Writers]{.f5}
+
 :::
 
-## Engaging with FINOS
+::: {.column width="33%" .f4 .pr2}
+[Content]{.smallcaps .f2}
 
+- **Developer content**<br>[Notebook improvements too slow]{.f5}
+- **Big picture content**<br>[After onbobarding, the next focus]{.f5}
+- **Better help in the product**<br>[Provide user assistance where it matters most]{.f5}
+- **More GenAI, please**<br>[- Generate new from existing<br>- Autogenerate feature docs & tests<br>]{.f5}
+:::
 
+::: {.column width="33%" .f4}
+[Community]{.smallcaps .f2}
 
-# Docs vision update
+- **The groundwork is laid**<br>[We have a handle on open source, code samples, blog, and workshops]{.f5}
+- **We need to reset**<br>[Collaborate with CSM, SAs, and Marketing to align on a cohesive strategy]{.f5}
+:::
 
-- [Docs Vision 2023](https://www.notion.so/validmind/Docs-Vision-2023-5c26b9c323774b66847648deb91debc7?pvs=4) — see the July 2024 update
-
-<!-- Many general site improvements from Beck — take a look! -->
+::::
