@@ -1,6 +1,6 @@
 ---
 title: "Miami&ensp;Offsite"
-# subtitle: "Docs, Training, and Community"
+subtitle: "Community Update"
 search: false
 format:
   revealjs:
@@ -36,24 +36,16 @@ filters:
 
 <hr>
 
-:::: {.columns}
+[[Better storytelling ...](#better-storytelling)]{.subtitle}
 
-::: {.column width="33%" .f2}
-[[Looking forward](#looking-forward)]{.subtitle}
-:::
+[[Docs site 2.0 ...](#docs-site-20)]{.subtitle}
 
-::: {.column width="33%" .f2}
-[[Looking back](#looking-back)]{.subtitle}
-:::
-
-::::
-
-# Looking forward {.tc}
+[[Rebooting our community ...](#rebooting-our-community)]{.subtitle}
 
 ## Better storytelling ...
 
 ::: {.footer}
-["What you should do."]{.silver}
+["What you should do."]{.silver .f2}
 :::
 
 ::: {.mt4}
@@ -63,7 +55,7 @@ filters:
 ## Docs site 2.0 ...
 
 ::: {.footer}
-["What you should know."]{.silver}
+["What you should know."]{.silver .f2}
 :::
 
 - Design — [Figma home page & design system {{< fa external-link >}}](https://www.figma.com/design/dTiSXaSJfjm4EuUwNGszK6/Doc-Site-2025?node-id=0-1&m=dev)
@@ -79,7 +71,7 @@ filters:
 ## Rebooting our community ...
 
 ::: {.footer}
-["What we should talk about."]{.silver}
+["What we should talk about."]{.silver .f2}
 :::
 
 - What do we support {{< fa arrows-left-right >}} What is the value add?
@@ -93,7 +85,7 @@ filters:
 
 - Zendesk "community site": — what, who, when?&ensp;[[Gather {{< fa external-link >}}]{.f3}](https://validmindhelp.zendesk.com/hc/en-us/community/topics)
 
-# Looking back  {.tc}
+# Backup slides {.tc}
 
 ## February 2023 {.center}
 
